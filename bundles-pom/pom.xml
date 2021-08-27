@@ -130,6 +130,9 @@
                                         <manifestEntries>
                                             <Bundle-SymbolicName>${project.artifactId}.source</Bundle-SymbolicName>
                                             <Eclipse-SourceBundle>${project.artifactId};version="${project.version}"</Eclipse-SourceBundle>
+                                            <Import-Package></Import-Package>
+                                            <Export-Package></Export-Package>
+                                            <Require-Bundle></Require-Bundle>
                                         </manifestEntries>
                                     </transformer>
                                 </transformers>
