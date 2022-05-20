@@ -206,6 +206,7 @@
                         <_removeheaders>Ignore-Package,Include-Resource,Private-Package,Embed-Dependency
                         </_removeheaders>
                     </instructions>
+                    <excludeDependencies>*;groupId=${pkgGroupId};artifactId=${pkgArtifactId};classifier=sources</excludeDependencies>
                     <unpackBundle>true</unpackBundle>
                 </configuration>
             </plugin>
